@@ -1,12 +1,9 @@
-import { DefaultTheme } from "styled-components";
+import {DefaultTheme} from 'styled-components';
 
 const Theme: DefaultTheme = {
-  borderRadius: "5px",
+  borderRadius: '5px',
 
-  colors: {
-    main: "cyan",
-    secondary: "magenta"
-  }
+  colors: {main: '#803', secondary: '#fff'}
 };
 
-export { Theme };
+export {Theme};
