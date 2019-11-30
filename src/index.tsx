@@ -6,6 +6,11 @@ import { Theme } from "./theme";
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+  
+  html {
+    overflow-y:scroll;
+  }
+
   body {
     margin: 0;
     font-size: 1em;
