@@ -1,9 +1,7 @@
 import React from "react";
 
+import { PageHero } from "./common-components/PageHero";
+
 export const EntryInformation: React.FC = () => {
-  return (
-    <section>
-      <h2>Påmelding</h2>
-    </section>
-  );
+  return <PageHero>Påmelding</PageHero>;
 };

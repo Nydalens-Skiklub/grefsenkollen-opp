@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 
 const Header = styled.header`
@@ -75,7 +76,7 @@ const NavbarMenu = styled.div`
   }
 `;
 
-const NavbarItem = styled.a`
+const NavbarItem = styled(NavLink)`
   border-bottom: none;
   color: #fff;
   cursor: pointer;
@@ -90,6 +91,7 @@ const NavbarItem = styled.a`
   position: relative;
   text-decoration: none;
 
+  &.active,
   &:hover {
     background-color: ${props => props.theme.colors.main};
   }
@@ -119,7 +121,7 @@ export const Navbar: React.FC = () => {
       >
         <Container>
           <NavbarBrand>
-            <NavbarItem href="https://nydalen.idrett.no/orientering/">
+            <NavbarItem to="/">
               <img
                 src="http://www.nydalslopet.one/wp-content/uploads/2015/08/nydalens_sk_emblem.png"
                 alt="Nydalens Skiklub"
@@ -130,19 +132,19 @@ export const Navbar: React.FC = () => {
           </NavbarBrand>
           <NavbarMenu>
             <div>
-              <NavbarItem>
+              <NavbarItem to="/entry">
                 <span>Påmelding</span>
               </NavbarItem>
-              <NavbarItem>
+              <NavbarItem to="/course">
                 <span>Løypa</span>
               </NavbarItem>
-              <NavbarItem>
+              <NavbarItem to="/info">
                 <span>Praktisk info</span>
               </NavbarItem>
-              <NavbarItem>
+              <NavbarItem to="/results">
                 <span>Resultater</span>
               </NavbarItem>
-              <NavbarItem>
+              <NavbarItem to="/sponsors">
                 <span>Sponsorer</span>
               </NavbarItem>
             </div>

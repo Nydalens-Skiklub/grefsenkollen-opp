@@ -1,10 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import { useHistory } from "react-router";
+
+import { HeaderTitle } from "./common-components/HeaderTitle";
 
 const HeaderContainer = styled.div`
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: calc(100vh - 4rem);
   padding-top: 4rem;
   display: flex;
   align-items: stretch;
@@ -56,25 +59,6 @@ const Date = styled.span`
   opacity: 0.85;
 `;
 
-const HeaderTitle = styled.h1`
-  @import url("https://fonts.googleapis.com/css?family=Quicksand:500&display=swap");
-  font-family: "Quicksand", sans-serif;
-  -webkit-font-smoothing: subpixel-antialiased;
-  color: #fff;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-weight: 900;
-  line-height: 1.125;
-  word-break: break-word;
-
-  padding: 1rem 0;
-  font-size: 2.5rem;
-  @media screen and (min-width: 768px) {
-    padding: 1rem;
-    font-size: 5rem;
-  }
-`;
-
 const CallToActionButton = styled.button`
   border: none;
   border-radius: ${props => props.theme.borderRadius};
@@ -96,6 +80,12 @@ const CallToActionButton = styled.button`
 `;
 
 export const Header: React.FC = () => {
+  const history = useHistory();
+
+  const handleClick = () => {
+    history.push("/entry");
+  };
+
   return (
     <HeaderContainer>
       <BackgroundMediaContainer />
@@ -103,8 +93,10 @@ export const Header: React.FC = () => {
         <div>
           <div>
             <Date>Søndag, 24. mai 2020</Date>
-            <HeaderTitle>Grefsenkollen Opp</HeaderTitle>
-            <CallToActionButton>Bli med på løpet</CallToActionButton>
+            <HeaderTitle isFrontPage={true}>Grefsenkollen Opp</HeaderTitle>
+            <CallToActionButton type="button" onClick={handleClick}>
+              Bli med på løpet
+            </CallToActionButton>
           </div>
         </div>
       </HeaderBody>

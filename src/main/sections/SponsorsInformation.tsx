@@ -1,9 +1,7 @@
 import React from "react";
 
+import { PageHero } from "./common-components/PageHero";
+
 export const SponsorsInformation: React.FC = () => {
-  return (
-    <section>
-      <h2>Sponsorer</h2>
-    </section>
-  );
+  return <PageHero>Sponsorer og samarbeidspartnere</PageHero>;
 };

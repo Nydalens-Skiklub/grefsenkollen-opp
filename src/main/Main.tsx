@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Route, Switch } from "react-router";
 
 import { EntryInformation } from "./sections/EntryInformation";
 import { CourseInformation } from "./sections/CourseInformation";
@@ -13,12 +14,26 @@ const Content = styled.main``;
 export const Main: React.FC = () => {
   return (
     <Content>
-      <Header />
-      <EntryInformation />
-      <CourseInformation />
-      <PracticalInformation />
-      <ResultsInformation />
-      <SponsorsInformation />
+      <Switch>
+        <Route path="/entry">
+          <EntryInformation />
+        </Route>
+        <Route path="/course">
+          <CourseInformation />
+        </Route>
+        <Route path="/info">
+          <PracticalInformation />
+        </Route>
+        <Route path="/results">
+          <ResultsInformation />
+        </Route>
+        <Route path="/sponsors">
+          <SponsorsInformation />
+        </Route>
+        <Route path="/">
+          <Header />
+        </Route>
+      </Switch>
     </Content>
   );
 };
