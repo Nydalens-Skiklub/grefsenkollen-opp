@@ -8,9 +8,7 @@ import { ResultsInformation } from "./sections/ResultsInformation";
 import { SponsorsInformation } from "./sections/SponsorsInformation";
 import { Header } from "./sections/Header";
 
-const Content = styled.main`
-  margin-bottom: 1000rem; /* TODO: Remove */
-`;
+const Content = styled.main``;
 
 export const Main: React.FC = () => {
   return (

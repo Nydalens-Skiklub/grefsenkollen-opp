@@ -14,9 +14,10 @@ interface NavigationProps {
   readonly isOffTop: boolean;
 }
 
-const Navigation = styled.div<NavigationProps>`
+const Navigation = styled.nav<NavigationProps>`
   top: ${props => (props.isOffTop ? "0" : "2rem")};
-  background-color: ${props => (props.isOffTop ? "#181818" : "none")};
+  background-color: ${props =>
+    props.isOffTop ? props.theme.colors.darkBackground : "none"};
   transition: all 0.2s ease;
   position: fixed;
   left: 0;
@@ -88,6 +89,14 @@ const NavbarItem = styled.a`
   padding: 0.5rem 0.75rem;
   position: relative;
   text-decoration: none;
+
+  &:hover {
+    background-color: ${props => props.theme.colors.main};
+  }
+
+  &:only-child {
+    background: none;
+  }
 `;
 
 export const Navbar: React.FC = () => {
