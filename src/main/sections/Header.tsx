@@ -37,7 +37,7 @@ const BackgroundMediaContainer = styled.div`
 const HeaderBody = styled.div`
   display: flex;
   align-items: center;
-  padding: 3rem 1.5rem 12rem 1.5rem;
+  padding: 3rem 1.5rem 6rem 1.5rem;
   flex-grow: 1;
   flex-shrink: 0;
 
