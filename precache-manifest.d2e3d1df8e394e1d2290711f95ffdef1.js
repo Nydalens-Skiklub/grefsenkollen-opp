@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aae7f8ddedfb485cc3e8ef7e3dd842f0",
+    "revision": "61463b7d5e318208d70dbe17e2695f16",
     "url": "/grefsenkollen-opp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/grefsenkollen-opp/static/js/2.0a5ce978.chunk.js"
   },
   {
-    "revision": "ae5ed8e2dec77fe8cb01",
-    "url": "/grefsenkollen-opp/static/js/main.d9064aea.chunk.js"
+    "revision": "b67b1ae6fd9dea653084",
+    "url": "/grefsenkollen-opp/static/js/main.5f63c560.chunk.js"
   },
   {
     "revision": "bf9dc82cb8f5c771419c",

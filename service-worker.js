@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/grefsenkollen-opp/precache-manifest.2d81778376c69ba2797321899e29bb39.js"
+  "/grefsenkollen-opp/precache-manifest.d2e3d1df8e394e1d2290711f95ffdef1.js"
 );
 
 self.addEventListener('message', (event) => {
