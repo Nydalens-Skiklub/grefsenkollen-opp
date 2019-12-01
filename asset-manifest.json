@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/grefsenkollen-opp/static/js/main.5f63c560.chunk.js",
-    "main.js.map": "/grefsenkollen-opp/static/js/main.5f63c560.chunk.js.map",
+    "main.js": "/grefsenkollen-opp/static/js/main.0f4ce186.chunk.js",
+    "main.js.map": "/grefsenkollen-opp/static/js/main.0f4ce186.chunk.js.map",
     "runtime-main.js": "/grefsenkollen-opp/static/js/runtime-main.2255fd28.js",
     "runtime-main.js.map": "/grefsenkollen-opp/static/js/runtime-main.2255fd28.js.map",
-    "static/js/2.0a5ce978.chunk.js": "/grefsenkollen-opp/static/js/2.0a5ce978.chunk.js",
-    "static/js/2.0a5ce978.chunk.js.map": "/grefsenkollen-opp/static/js/2.0a5ce978.chunk.js.map",
+    "static/js/2.3ec8f72b.chunk.js": "/grefsenkollen-opp/static/js/2.3ec8f72b.chunk.js",
+    "static/js/2.3ec8f72b.chunk.js.map": "/grefsenkollen-opp/static/js/2.3ec8f72b.chunk.js.map",
     "index.html": "/grefsenkollen-opp/index.html",
-    "precache-manifest.d2e3d1df8e394e1d2290711f95ffdef1.js": "/grefsenkollen-opp/precache-manifest.d2e3d1df8e394e1d2290711f95ffdef1.js",
+    "precache-manifest.7d0e41ecd667790f3c71964ab8049ec0.js": "/grefsenkollen-opp/precache-manifest.7d0e41ecd667790f3c71964ab8049ec0.js",
     "service-worker.js": "/grefsenkollen-opp/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.2255fd28.js",
-    "static/js/2.0a5ce978.chunk.js",
-    "static/js/main.5f63c560.chunk.js"
+    "static/js/2.3ec8f72b.chunk.js",
+    "static/js/main.0f4ce186.chunk.js"
   ]
 }
