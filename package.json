@@ -1,5 +1,6 @@
 {
   "name": "grefsenkollen-opp",
+  "homepage": "https://Nydalens-Skiklub.github.io/grefsenkollen-opp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@types/react-router": "^5.1.3",
     "@types/react-router-dom": "^5.1.3",
     "@types/styled-components": "^4.4.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
@@ -19,6 +21,8 @@
     "typescript": "3.7.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
