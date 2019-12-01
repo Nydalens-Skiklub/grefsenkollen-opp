@@ -6,8 +6,9 @@ const Theme: DefaultTheme = {
   colors: {
     main: '#803',
     secondary: '#00b295',
-    brightBackground: '#c9daea',
-    darkBackground: '#191516'
+    brightBackground: '#f5f5f5',
+    darkBackground: '#191516',
+    textColor: '#252525'
   }
 };
 

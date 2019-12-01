@@ -20,6 +20,15 @@ const GlobalStyle = createGlobalStyle`
 
     background-color: ${props => props.theme.colors.brightBackground};
   }
+
+  p, li, td {
+    font-size: 1.25em;
+    color: ${props => props.theme.colors.textColor};
+  }
+
+  p + ul {
+    margin-top: -1rem;
+}
 `;
 
 ReactDOM.render(
