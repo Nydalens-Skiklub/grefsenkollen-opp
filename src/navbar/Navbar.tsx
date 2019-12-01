@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
+import { BurgerMenu } from "./BurgerMenu";
+import { Burger } from "./Burger";
 
 const Header = styled.header`
   position: fixed;
@@ -15,7 +17,7 @@ interface NavigationProps {
   readonly isOffTop: boolean;
 }
 
-const Navigation = styled.nav<NavigationProps>`
+const Navigation = styled.div<NavigationProps>`
   top: ${props => (props.isOffTop ? "0" : "2rem")};
   background-color: ${props =>
     props.isOffTop ? props.theme.colors.darkBackground : "none"};
@@ -24,7 +26,7 @@ const Navigation = styled.nav<NavigationProps>`
   left: 0;
   right: 0;
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 768px) {
     min-height: 4rem;
     display: flex;
     align-items: stretch;
@@ -40,6 +42,7 @@ const Container = styled.div`
   margin: 0 auto;
   position: relative;
 
+  max-width: 768px;
   @media screen and (min-width: 1024px) {
     max-width: 960px;
   }
@@ -52,16 +55,22 @@ const Container = styled.div`
 `;
 
 const NavbarBrand = styled.div`
-  @media screen and (min-width: 1024px) {
-    margin-left: -0.75rem;
-    display: flex;
-    align-items: stretch;
-    flex-shrink: 0;
-    min-height: 4rem;
+  margin-left: -0.75rem;
+  display: flex;
+  align-items: stretch;
+  flex-shrink: 0;
+  min-height: 4rem;
+
+  @media screen and (max-width: 780px) {
+    margin: 0 1rem;
   }
 `;
 
-const NavbarMenu = styled.div`
+const NavbarMenu = styled.nav`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
   margin-right: -0.75rem;
   display: flex;
   align-items: stretch;
@@ -101,7 +110,27 @@ const NavbarItem = styled(NavLink)`
   }
 `;
 
+const BurgerMenuContainer = styled.div`
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: flex;
+  }
+
+  margin-right: -0.75rem;
+  align-items: stretch;
+  flex-grow: 1;
+  flex-shrink: 0;
+
+  > div {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+`;
+
 export const Navbar: React.FC = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
   const [isOffTop, setIsOffTop] = useState(false);
 
   useScrollPosition(
@@ -149,6 +178,12 @@ export const Navbar: React.FC = () => {
               </NavbarItem>
             </div>
           </NavbarMenu>
+          <BurgerMenuContainer>
+            <div>
+              <Burger isOpen={isOpen} setIsOpen={setIsOpen} />
+            </div>
+            <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
+          </BurgerMenuContainer>
         </Container>
       </Navigation>
     </Header>
