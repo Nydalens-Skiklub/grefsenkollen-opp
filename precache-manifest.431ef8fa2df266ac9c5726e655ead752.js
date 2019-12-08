@@ -1,15 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "119513a90df52b8faa7ffd1e22a79de8",
+    "revision": "e155da2794b0b8695472a76dac2985a2",
     "url": "/grefsenkollen-opp/index.html"
   },
   {
-    "revision": "d87a6d91eb4eb027b566",
-    "url": "/grefsenkollen-opp/static/js/2.4f5a6430.chunk.js"
+    "revision": "956d2904ba6a2f599a3d",
+    "url": "/grefsenkollen-opp/static/css/2.7efaf445.chunk.css"
   },
   {
-    "revision": "7e086c7335e60bccc183",
-    "url": "/grefsenkollen-opp/static/js/main.0d6a1f65.chunk.js"
+    "revision": "956d2904ba6a2f599a3d",
+    "url": "/grefsenkollen-opp/static/js/2.3aab6b11.chunk.js"
+  },
+  {
+    "revision": "601aa6d4b3e4f0725ebf",
+    "url": "/grefsenkollen-opp/static/js/main.7f89876e.chunk.js"
   },
   {
     "revision": "bf9dc82cb8f5c771419c",
@@ -18,6 +22,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7e6d9404de70293f4eb7a4bf62cd206",
     "url": "/grefsenkollen-opp/static/media/ascent.f7e6d940.svg"
+  },
+  {
+    "revision": "6850fa80743966a77fcac23b6b5319b1",
+    "url": "/grefsenkollen-opp/static/media/course-finish.6850fa80.svg"
+  },
+  {
+    "revision": "2e6052b2c9711c1b4a38e191a51b724f",
+    "url": "/grefsenkollen-opp/static/media/course-start.2e6052b2.svg"
   },
   {
     "revision": "0f6e4101423998694dbc39e3db27d785",
