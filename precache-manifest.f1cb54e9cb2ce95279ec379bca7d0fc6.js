@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cf6830e97b46cf7083c4659f4e2dd9d",
+    "revision": "119513a90df52b8faa7ffd1e22a79de8",
     "url": "/grefsenkollen-opp/index.html"
   },
   {
-    "revision": "d223f0794e94d95fbdc5",
-    "url": "/grefsenkollen-opp/static/js/2.7e0e3a2d.chunk.js"
+    "revision": "d87a6d91eb4eb027b566",
+    "url": "/grefsenkollen-opp/static/js/2.4f5a6430.chunk.js"
   },
   {
-    "revision": "d8af05e0b9c2510363e0",
-    "url": "/grefsenkollen-opp/static/js/main.873016f1.chunk.js"
+    "revision": "7e086c7335e60bccc183",
+    "url": "/grefsenkollen-opp/static/js/main.0d6a1f65.chunk.js"
   },
   {
     "revision": "bf9dc82cb8f5c771419c",
