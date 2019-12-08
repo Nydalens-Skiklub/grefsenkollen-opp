@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.js": "/grefsenkollen-opp/static/js/main.0f4ce186.chunk.js",
-    "main.js.map": "/grefsenkollen-opp/static/js/main.0f4ce186.chunk.js.map",
+    "main.js": "/grefsenkollen-opp/static/js/main.873016f1.chunk.js",
+    "main.js.map": "/grefsenkollen-opp/static/js/main.873016f1.chunk.js.map",
     "runtime-main.js": "/grefsenkollen-opp/static/js/runtime-main.2255fd28.js",
     "runtime-main.js.map": "/grefsenkollen-opp/static/js/runtime-main.2255fd28.js.map",
-    "static/js/2.3ec8f72b.chunk.js": "/grefsenkollen-opp/static/js/2.3ec8f72b.chunk.js",
-    "static/js/2.3ec8f72b.chunk.js.map": "/grefsenkollen-opp/static/js/2.3ec8f72b.chunk.js.map",
+    "static/js/2.7e0e3a2d.chunk.js": "/grefsenkollen-opp/static/js/2.7e0e3a2d.chunk.js",
+    "static/js/2.7e0e3a2d.chunk.js.map": "/grefsenkollen-opp/static/js/2.7e0e3a2d.chunk.js.map",
     "index.html": "/grefsenkollen-opp/index.html",
-    "precache-manifest.7d0e41ecd667790f3c71964ab8049ec0.js": "/grefsenkollen-opp/precache-manifest.7d0e41ecd667790f3c71964ab8049ec0.js",
-    "service-worker.js": "/grefsenkollen-opp/service-worker.js"
+    "precache-manifest.7288cea490c1377e48d6c17a36b542b0.js": "/grefsenkollen-opp/precache-manifest.7288cea490c1377e48d6c17a36b542b0.js",
+    "service-worker.js": "/grefsenkollen-opp/service-worker.js",
+    "static/media/ascent.svg": "/grefsenkollen-opp/static/media/ascent.f7e6d940.svg",
+    "static/media/distance.svg": "/grefsenkollen-opp/static/media/distance.0f6e4101.svg",
+    "static/media/location.svg": "/grefsenkollen-opp/static/media/location.0ea041d7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2255fd28.js",
-    "static/js/2.3ec8f72b.chunk.js",
-    "static/js/main.0f4ce186.chunk.js"
+    "static/js/2.7e0e3a2d.chunk.js",
+    "static/js/main.873016f1.chunk.js"
   ]
 }
