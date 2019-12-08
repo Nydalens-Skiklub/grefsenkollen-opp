@@ -1,7 +1,8 @@
 import React from "react";
 
-import { PageHero } from "./common-components/PageHero";
-import { PageBody } from "./common-components/PageBody";
+import { PageHero } from "../common-components/PageHero";
+import { PageBody } from "../common-components/PageBody";
+import { Mapbox } from "./Mapbox";
 
 export const CourseInformation: React.FC = () => {
   return (
@@ -37,8 +38,8 @@ export const CourseInformation: React.FC = () => {
           veien slutter og snuplassen begynner ved Grefsenkollen restaurant.
         </p>
 
-        <h2>Løypekart</h2>
-        {/* TODO: Add course map */}
+        <Mapbox />
+
         {/* TODO: Add course height profile */}
       </PageBody>
     </>

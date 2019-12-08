@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Route, Switch } from "react-router";
 
 import { EntryInformation } from "./sections/EntryInformation";
-import { CourseInformation } from "./sections/CourseInformation";
+import { CourseInformation } from "./sections/CourseInformation/CourseInformation";
 import { PracticalInformation } from "./sections/PracticalInformation";
 import { ResultsInformation } from "./sections/ResultsInformation";
 import { SponsorsInformation } from "./sections/SponsorsInformation";
