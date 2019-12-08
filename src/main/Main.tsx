@@ -8,6 +8,7 @@ import { PracticalInformation } from "./sections/PracticalInformation";
 import { ResultsInformation } from "./sections/ResultsInformation";
 import { SponsorsInformation } from "./sections/SponsorsInformation";
 import { Header } from "./sections/Header";
+import { MainInformation } from "./sections/MainInformation";
 
 const Content = styled.main``;
 
@@ -32,6 +33,7 @@ export const Main: React.FC = () => {
         </Route>
         <Route path="/">
           <Header />
+          <MainInformation />
         </Route>
       </Switch>
     </Content>

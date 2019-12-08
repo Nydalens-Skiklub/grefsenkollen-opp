@@ -1,8 +1,8 @@
 import React from "react";
+import styled from "styled-components";
 
 import { PageHero } from "./common-components/PageHero";
 import { PageBody } from "./common-components/PageBody";
-import styled from "styled-components";
 
 const InlineImage = styled.div`
   display: flex;

@@ -1,8 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { PageHero } from "./common-components/PageHero";
 import { PageBody } from "./common-components/PageBody";
-import { Link } from "react-router-dom";
 
 export const PracticalInformation: React.FC = () => {
   return (
