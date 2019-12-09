@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e155da2794b0b8695472a76dac2985a2",
+    "revision": "263193a7e0e2d9dced605aca5af88e70",
     "url": "/grefsenkollen-opp/index.html"
   },
   {
-    "revision": "956d2904ba6a2f599a3d",
+    "revision": "db7cc43f2f2b747e6343",
     "url": "/grefsenkollen-opp/static/css/2.7efaf445.chunk.css"
   },
   {
-    "revision": "956d2904ba6a2f599a3d",
-    "url": "/grefsenkollen-opp/static/js/2.3aab6b11.chunk.js"
+    "revision": "db7cc43f2f2b747e6343",
+    "url": "/grefsenkollen-opp/static/js/2.ad53263f.chunk.js"
   },
   {
-    "revision": "601aa6d4b3e4f0725ebf",
-    "url": "/grefsenkollen-opp/static/js/main.7f89876e.chunk.js"
+    "revision": "fd228f9b9a68ce6b23a6cf8b0a38a0e3",
+    "url": "/grefsenkollen-opp/static/js/2.ad53263f.chunk.js.LICENSE"
   },
   {
-    "revision": "bf9dc82cb8f5c771419c",
-    "url": "/grefsenkollen-opp/static/js/runtime-main.2255fd28.js"
+    "revision": "9232d20309849d2d68f5",
+    "url": "/grefsenkollen-opp/static/js/main.1f5bb968.chunk.js"
+  },
+  {
+    "revision": "571171bbc3c0b0a627bd",
+    "url": "/grefsenkollen-opp/static/js/runtime-main.4d0d2fa1.js"
   },
   {
     "revision": "f7e6d9404de70293f4eb7a4bf62cd206",
     "url": "/grefsenkollen-opp/static/media/ascent.f7e6d940.svg"
+  },
+  {
+    "revision": "7f218be2fcac070d4fdfba290dfea47a",
+    "url": "/grefsenkollen-opp/static/media/avantor-logo.7f218be2.svg"
   },
   {
     "revision": "6850fa80743966a77fcac23b6b5319b1",
@@ -34,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0f6e4101423998694dbc39e3db27d785",
     "url": "/grefsenkollen-opp/static/media/distance.0f6e4101.svg"
+  },
+  {
+    "revision": "d4cc76b69d63f0ccde05108567716dd9",
+    "url": "/grefsenkollen-opp/static/media/grefsenkollen-opp-logo.d4cc76b6.svg"
   },
   {
     "revision": "0ea041d7654b46b15b864c8626ecbf02",

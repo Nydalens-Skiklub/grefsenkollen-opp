@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.js": "/grefsenkollen-opp/static/js/main.7f89876e.chunk.js",
-    "main.js.map": "/grefsenkollen-opp/static/js/main.7f89876e.chunk.js.map",
-    "runtime-main.js": "/grefsenkollen-opp/static/js/runtime-main.2255fd28.js",
-    "runtime-main.js.map": "/grefsenkollen-opp/static/js/runtime-main.2255fd28.js.map",
+    "main.js": "/grefsenkollen-opp/static/js/main.1f5bb968.chunk.js",
+    "main.js.map": "/grefsenkollen-opp/static/js/main.1f5bb968.chunk.js.map",
+    "runtime-main.js": "/grefsenkollen-opp/static/js/runtime-main.4d0d2fa1.js",
+    "runtime-main.js.map": "/grefsenkollen-opp/static/js/runtime-main.4d0d2fa1.js.map",
     "static/css/2.7efaf445.chunk.css": "/grefsenkollen-opp/static/css/2.7efaf445.chunk.css",
-    "static/js/2.3aab6b11.chunk.js": "/grefsenkollen-opp/static/js/2.3aab6b11.chunk.js",
-    "static/js/2.3aab6b11.chunk.js.map": "/grefsenkollen-opp/static/js/2.3aab6b11.chunk.js.map",
+    "static/js/2.ad53263f.chunk.js": "/grefsenkollen-opp/static/js/2.ad53263f.chunk.js",
+    "static/js/2.ad53263f.chunk.js.map": "/grefsenkollen-opp/static/js/2.ad53263f.chunk.js.map",
     "index.html": "/grefsenkollen-opp/index.html",
-    "precache-manifest.431ef8fa2df266ac9c5726e655ead752.js": "/grefsenkollen-opp/precache-manifest.431ef8fa2df266ac9c5726e655ead752.js",
+    "precache-manifest.7ff2990a1630b4b9e6aa5e8988da3a97.js": "/grefsenkollen-opp/precache-manifest.7ff2990a1630b4b9e6aa5e8988da3a97.js",
     "service-worker.js": "/grefsenkollen-opp/service-worker.js",
     "static/css/2.7efaf445.chunk.css.map": "/grefsenkollen-opp/static/css/2.7efaf445.chunk.css.map",
+    "static/js/2.ad53263f.chunk.js.LICENSE": "/grefsenkollen-opp/static/js/2.ad53263f.chunk.js.LICENSE",
     "static/media/ascent.svg": "/grefsenkollen-opp/static/media/ascent.f7e6d940.svg",
+    "static/media/avantor-logo.svg": "/grefsenkollen-opp/static/media/avantor-logo.7f218be2.svg",
     "static/media/course-finish.svg": "/grefsenkollen-opp/static/media/course-finish.6850fa80.svg",
     "static/media/course-start.svg": "/grefsenkollen-opp/static/media/course-start.2e6052b2.svg",
     "static/media/distance.svg": "/grefsenkollen-opp/static/media/distance.0f6e4101.svg",
+    "static/media/grefsenkollen-opp-logo.svg": "/grefsenkollen-opp/static/media/grefsenkollen-opp-logo.d4cc76b6.svg",
     "static/media/location.svg": "/grefsenkollen-opp/static/media/location.0ea041d7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2255fd28.js",
+    "static/js/runtime-main.4d0d2fa1.js",
     "static/css/2.7efaf445.chunk.css",
-    "static/js/2.3aab6b11.chunk.js",
-    "static/js/main.7f89876e.chunk.js"
+    "static/js/2.ad53263f.chunk.js",
+    "static/js/main.1f5bb968.chunk.js"
   ]
 }
