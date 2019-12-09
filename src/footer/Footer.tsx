@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import AvantorLogo from "../images/logos/avantor-logo.svg";
+
 const FooterContainer = styled.footer`
   background-color: #323639;
   padding: 5rem 0;
@@ -45,6 +47,14 @@ const SponsorsContainer = styled.div`
 
 const Sponsor = styled.a`
   margin: 0 0.5rem 2rem 0.5rem;
+
+  > img {
+    max-width: 100%;
+  }
+`;
+
+const StyledMainSponsorLogo = styled.img`
+  width: 100%;
 `;
 
 export const Footer: React.FC = () => {
@@ -64,11 +74,7 @@ export const Footer: React.FC = () => {
         </Sponsor>
         <FooterTitle>Sponsor</FooterTitle>
         <Sponsor href="https://avantor.no/" rel="noreferrer nofollow">
-          <img
-            src="https://avantor.no/wp-content/uploads/2018/10/Avantor_logo_liten.png"
-            alt="Avantor"
-            height="60"
-          />
+          <StyledMainSponsorLogo src={AvantorLogo} alt="Avantor" />
         </Sponsor>
         <FooterTitle>Samarbeidspartnere</FooterTitle>
         <SponsorsContainer>

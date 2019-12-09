@@ -28,7 +28,7 @@ const BackgroundMediaContainer = styled.div`
   right: -1rem;
   left: -1rem;
   bottom: -1rem;
-  filter: blur(8px) brightness(75%);
+  filter: blur(8px) brightness(85%);
   background-image: url(https://scontent.fosl4-2.fna.fbcdn.net/v/t1.0-9/33540529_1038284482986443_5118076118758326272_n.jpg?_nc_cat=109&_nc_ohc=d2AbqPnnnIUAQkD5VfXC9qbG8HArTd2jo4HFhmQxtx0gFMHnOXTknypqQ&_nc_ht=scontent.fosl4-2.fna&oh=45b96b949b2d8bf1b570b84f1c808728&oe=5E764DBB);
   background-size: cover;
   background-position: center center;

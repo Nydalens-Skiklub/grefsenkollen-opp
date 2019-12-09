@@ -5,6 +5,8 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { BurgerMenu } from "./BurgerMenu";
 import { Burger } from "./Burger";
 
+import GrefsenkollenOppLogo from "../images/logos/grefsenkollen-opp-logo.svg";
+
 const Header = styled.header`
   position: fixed;
   top: 0;
@@ -151,12 +153,10 @@ export const Navbar: React.FC = () => {
         <Container>
           <NavbarBrand>
             <NavbarItem to="/">
-              <img
-                src="http://www.nydalslopet.one/wp-content/uploads/2015/08/nydalens_sk_emblem.png"
-                alt="Nydalens Skiklub"
-                width="112"
-                height="28"
-              />
+              <img src={GrefsenkollenOppLogo} alt="Logo" height="50" />
+              <span>
+                <strong>Grefsenkollen Opp</strong>
+              </span>
             </NavbarItem>
           </NavbarBrand>
           <NavbarMenu>
