@@ -20,8 +20,8 @@ interface NavigationProps {
 }
 
 const Navigation = styled.div<NavigationProps>`
-  top: ${props => (props.isOffTop ? "0" : "2rem")};
-  background-color: ${props =>
+  top: ${(props) => (props.isOffTop ? "0" : "2rem")};
+  background-color: ${(props) =>
     props.isOffTop ? props.theme.colors.darkBackground : "none"};
   transition: all 0.2s ease;
   position: fixed;
@@ -104,7 +104,7 @@ const NavbarItem = styled(NavLink)`
 
   &.active,
   &:hover {
-    background-color: ${props => props.theme.colors.main};
+    background-color: ${(props) => props.theme.colors.main};
   }
 
   &:only-child {

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Route, Switch } from "react-router";
+import { Route, Switch } from "react-router-dom";
 
 import { EntryInformation } from "./sections/EntryInformation";
 import { CourseInformation } from "./sections/CourseInformation/CourseInformation";
