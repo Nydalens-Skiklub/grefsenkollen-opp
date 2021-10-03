@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 
 import { HeaderTitle } from "./common-components/HeaderTitle";
 
@@ -61,9 +61,9 @@ const Date = styled.span`
 
 const CallToActionButton = styled.button`
   border: none;
-  border-radius: ${props => props.theme.borderRadius};
+  border-radius: ${(props) => props.theme.borderRadius};
   font-size: 1.5rem;
-  background-color: ${props => props.theme.colors.main};
+  background-color: ${(props) => props.theme.colors.main};
   color: #fff;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
